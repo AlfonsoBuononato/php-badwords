@@ -22,7 +22,7 @@
    $replaced = str_replace($badword, " *** ", $par);
    ?>
 
-   <main><?php echo $par ?> le lettere presenti nel paragrafo sono: <?php echo $length_par ?></main>
+   <P><?php echo $par ?> le lettere presenti nel paragrafo sono: <?php echo $length_par ?></P>
    <p><?php echo $replaced ?> le lettere presenti nel paragrafo sono: <?php echo $length_par ?></p>
 
 </body>
